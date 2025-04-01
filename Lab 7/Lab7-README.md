@@ -2,15 +2,34 @@
 Rae Sheng  
 PHYS 1200  
 Professor Zahra Alavi  
-19 March 2025  
+Due 26 March 2025  
+Submitted 1 April 2025   
 
-**Example 1:** Plotting Projectile Motion  
-* **Objective:** Write a program to calculate the horizontal and vertical positions of a projectile at different time intervals, given its initial velocity and launch angle. Then make a plot of x vs t, y vs t and x vs y using subplots. Try different formats for your plots.  
+**Example 1:** Plotting functions alternative solution
+
+**Example 2:** Bar Chart of Kinetic Energy of Different Objects
+* **Objective:** Create a bar chart showing the kinetic energy of different objects with varying masses and constant velocity.
 * **Instructions:**  
-  * Import the NumPy library.
-  * Define variables for the initial velocity (v0), launch angle (theta), and acceleration due to gravity (g, with a value of 9.81 m/s²).Convert the launch angle from degrees to radians.
-  * Calculate the total time and assign it to a variable (time). Create a NumPy array time_intervals to represent different time intervals (in seconds) starting from zero to total-time.
-  * Calculate the arrays for horizontal position (x_t) and the vertical position (y_t).
-  * Plot x vs time_intervals, y vs time_intervals and x vs y using subplots. Make sure your axis are labeled and your plots are titled.  
+  * Import the necessary libraries: NumPy for calculations and Matplotlib for plotting.
+  * Define a NumPy array for the masses of different objects.
+  * Assume a constant velocity for all objects.
+  * Calculate the kinetic energy for each object using the formula kinetic_energy = 0.5 * mass * velocity**2.
+  * Use Matplotlib to create a bar chart showing the kinetic energy of each object.
+  * Label the axes and add a title to the plot.
   
-The subplot and subplots images were created using velocity 50 m/s and launch angle 50 degrees.
+**Example 3:** Histogram of Thermal Energy Distribution
+* **Objective:** Create a histogram showing the distribution of thermal energy in a system at different
+temperatures.
+* **Instructions:**  
+  * Import the necessary libraries.
+  * Define a NumPy array for thermal energy values at different temperatures.
+  * Use Matplotlib to create a histogram showing the distribution of thermal energy.
+  * Label the axes and add a title to the plot.
+
+**Example 4:** Pie Chart of Relative Abundances of Elements in the Universe
+* **Objective:** Create a pie chart showing the relative abundances of different elements in the universe. 
+* **Instructions:**  
+  * Import the necessary libraries.
+  * Define a list of element names and a corresponding list of their relative abundances.
+  * Use Matplotlib to create a pie chart showing the relative abundances of the elements.
+  * Add a legend to the plot.
