@@ -4,7 +4,7 @@ PHYS 1200
 Professor Zahra Alavi  
 11 May 2025  
   
-**Final 1:** Brownian Motion  
+## **Final 1:** Brownian Motion  
 **Objective:** In this lab, you'll use Python to generate two-dimensional random walks, plot their trajectories, and look at the distribution of end points for a large number of random walkers.  
            
 **Sections:**
