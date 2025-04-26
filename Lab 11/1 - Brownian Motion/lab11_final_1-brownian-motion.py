@@ -19,6 +19,7 @@ walks, plot their trajectories, and look at the distribution of end points for
 a large number of random walkers.
            
 Sections:
+
     1.1 - Generating and plotting trajectories
 
         A. Make a random walk trajectory, and then plot it. To remove any
